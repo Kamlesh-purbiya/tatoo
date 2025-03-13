@@ -1,0 +1,1030 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Start  */
+
+header {
+    width: 100%;
+    background-color: #111410;
+}
+
+.container {
+    width: 92%;
+    margin: auto;
+}
+
+.header-top {
+    width: 100%;
+    height: 42px;
+    background-color: #111410;
+}
+
+.top-header {
+    width: 100%;
+    height: 43px;
+    align-items: center;
+    color: #ffffffab;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top-right-header {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top-right-header a {
+    text-decoration: none;
+    color: #ffffffab;
+    font-size: 14px;
+}
+
+.main-header {
+    width: 100%;
+    height: 82px;
+    background-color: #111410;
+    outline: 1px solid #ffffffab;
+}
+
+.main-header img {
+    width: 182px;
+    height: 23px;
+}
+
+.header-row {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    height: 82px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 20px;
+}
+
+.menu li {
+    display: inline;
+    position: relative;
+}
+.menu a:hover {
+    color: #ffae1e;
+    padding: 32px 20px 27px 20px;
+}
+.menu span{
+    content: "";
+    width: 0;
+    height: 4px;
+    bottom: -32px;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.menu li:hover span{
+    width: 100%;
+    background-color: #ffae1e;
+    opacity: 1;
+    transition: all ease-in-out .5s;
+}
+.other-icons {
+    width: 170px;
+    height: 82px;
+    align-content: center;
+    word-spacing: 15px;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    transform: rotate(90deg);
+}
+.header-icon{
+    color: white;
+}
+.header-icon:hover{
+    color: #ffae1e;
+    transition: all ease-in-out .5s;
+}
+.shop {
+    width: 98vw;
+    height: 420px;
+    margin-left: -293px;
+    position: absolute;
+    top: 49px;
+    text-align: center;
+    background-color: #111410;
+    display: none;
+}
+
+.shop img {
+    margin-top: 15px;
+    width: 280px;
+    height: 340px;
+}
+
+.shop p {
+    width: 280px;
+    height: 35px;
+    background-color: #242424;
+    align-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.shop p:hover {
+    color: #ffae1e;
+}
+
+.menu li:hover .shop {
+    display: flex;
+    justify-content: space-around;
+    z-index: 10000;
+    transition: all ease-in-out .9s;
+}
+
+.pages {
+    width: 150px;
+    height: 80px;
+    background-color: #000;
+    position: absolute;
+    top: 49px;
+    z-index: 10000;
+    left: 0;
+    display: none;
+}
+
+.pages li {
+    width: 150px;
+    height: 40px;
+    display: block;
+    line-height: 35px;
+    align-content: center;
+}
+
+.menu li:hover .pages {
+    display: inline-block;
+    border-left: 4px solid #ffae1e;
+}
+
+.bd {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    left: 146px;
+    top: 5px;
+    position: absolute;
+    display: none;
+}
+
+.pages li:hover .bd {
+    height: 40px;
+    display: block;
+    z-index: 10000;
+    border-left: 4px solid #ffae1e;
+}
+
+/* Header End  */
+
+/* LAnding Page start  */
+.desktop {
+    width: 100%;
+}
+
+.item {
+    width: 110%;
+    height: 680px;
+    position: relative;
+}
+
+.item img {
+    width: 110%;
+    height: 680px;
+}
+
+.item-text {
+    width: 850px;
+    height: 260px;
+    position: absolute;
+    top: 0;
+    margin-top: 200px;
+    margin-left: 50px;
+    z-index: 10000;
+}
+
+.item-text h5 {
+    width: 190px;
+    height: 20px;
+    color: #ffae1e;
+    font-size: 14px;
+    font-family: 700;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.4px;
+}
+
+.item-text h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.item-text span {
+    width: 500px;
+    height: 100px;
+    font-size: 16px;
+    color: #ffffffab;
+    line-height: 30px;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    margin-top: 470px;
+    margin-left: 50px;
+    outline: 1px solid #ffffff;
+    text-align: center;
+    align-content: center;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffae1e;
+    padding: 22px 63.1px 22px;
+    font-family: sans-serif;
+}
+
+.btn a:hover {
+    background-color: #ffae1e;
+    color: #111410;
+    outline: none;
+}
+
+/* LAnding Page End  */
+
+/* Brand Logos Start */
+.brand-logos {
+    width: 100%;
+    height: 120px;
+    background-color: #111410;
+    display: flex;
+    margin-top: -18px;
+}
+
+.brand-logos img {
+    width: 100%;
+    border-right: 1px solid #ffffffab;
+}
+
+/* Brand Logos End */
+
+/* Trust Large Customer Support  */
+
+.trust {
+    width: 100%;
+    background-color: #111410;
+}
+
+.trust-content {
+    width: 100%;
+    background-color: #111410;
+}
+
+.trust-text {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.trust-text h2 {
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    font-family: sans-serif;
+    color: #ffffffab;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+}
+
+.trust-text p {
+    width: 60%;
+    margin: auto;
+    color: #ffffffab;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* Support Cards  */
+.support-cards {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.support-cards img {
+    width: 45px;
+    margin-top: 50px;
+}
+
+.s-card {
+    width: 25%;
+    height: 280px;
+    outline: 1px solid #ffffffab;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.crd-text h3 {
+    color: #ffffffab;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.crd-text p {
+    width: 250px;
+    margin: auto;
+    margin-top: 15px;
+    color: #ffffffab;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+/* Support Cards End  */
+
+/* Design Content  Start*/
+
+.designs {
+    width: 100%;
+    background-color: #111410;
+}
+
+.design-text {
+    padding-top: 50px;
+}
+
+.design h2 {
+    width: 19%;
+    margin: auto;
+    color: #ffffffab;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.design h3 {
+    width: 45%;
+    margin: auto;
+    margin-top: 18px;
+    color: #ffffffab;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.design-content {
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.design-c {
+    width: 24%;
+    outline: 1px solid #ffffffab;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.text i {
+    margin-top: 20px;
+}
+
+.text p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #ffffffab;
+    font-family: sans-serif;
+}
+
+.text span {
+    color: #ffffffab;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.design-content img {
+    width: 100%;
+    height: 320px;
+}
+
+.des-img {
+    overflow: hidden;
+    outline: 1px solid #ffffffab;
+    position: relative;
+}
+
+.des-img:hover img {
+    transform: scale(1.1);
+    transition: all ease-in-out .6s;
+}
+
+.icons-h {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: -30px;
+    margin-top: 10px;
+}
+
+.icons-h i {
+    margin-top: 10px;
+    background-color: #1c1f18;
+    padding: 4px;
+    outline: 1px solid #ffae1e;
+}
+
+.des-img:hover .icons-h {
+    margin-right: 12px;
+    transition: all ease-in-out .6s;
+}
+
+.view-more-designs {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.view-more-designs button {
+    width: 20%;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+}
+
+.view-more-designs a {
+    text-decoration: none;
+    padding: 20px 44px;
+    border: 2px solid #ffae1e;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: transparent;
+    color: #ffae1e;
+}
+
+.view-more-designs a:hover {
+    background-color: #ffae1e;
+    color: #000;
+    transition: all ease-in-out .5s;
+}
+
+/* NEW ARRIVAL DESIGNS STop  */
+.our-services-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-services {
+    background-color: #111410;
+    border-bottom: 1px solid #ffffffab;
+}
+
+.our-services-img {
+    width: 47%;
+}
+
+.our-services-img img {
+    width: 100%;
+}
+
+.our-services-text {
+    width: 53%;
+}
+
+.our-services-text h3 {
+    width: 140px;
+    margin-left: 30px;
+    color: #ffae1e;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.our-services-text h4 {
+    width: 100%;
+    margin: 20px 0 0 30px;
+    font-size: 44px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.our-services-text p {
+    margin: 10px 0 0 30px;
+    color: #ffffffab;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.our-service-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+.tattoo {
+    width: 40%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.ct {
+    width: 50%;
+}
+.ct h3{
+    width: 140px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.ct p{
+    width: 165px;
+    font-size: 15px;
+}
+.tattoo_img_box {
+    width: 25%;
+    height: 25%;
+}
+.tattoo_img_box img{
+    width: 80%;
+}
+.sn-btn{
+    width: 190px;
+    height: 62px;
+    align-items: center;
+    margin: 5px 0 0 30px;
+}
+.sn-btn button{
+    width: 190px;
+    height: 62px;
+    background-color: #111410;
+    border: none;
+    border: 1px solid #ffae1e;
+}
+.sn-btn a{
+    text-decoration: none;
+    color: #ffffffab;
+    font-size: 18px;
+}
+.sn-btn button:hover{
+    background-color: #ffae1e;
+    transition: all ease-in-out .5s;
+}
+
+/* Review Container  */
+.review-main-container{
+    width: 100%;
+    background-color: #111410;
+    padding-top: 80px;
+}
+.review-header{
+    width: 100%;
+    text-align: center;
+}
+.review-text h3{
+    margin-top: 20PX;
+    color: #ffae1e;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.review-text h4{
+    margin-top: 30px;
+    font-size: 48px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.slider{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-color: #111410;
+    display: flex;
+    justify-content: space-around;
+}
+
+.review{
+    width: 350px;
+    height: 515px;
+    background-color: #111410;
+    border: 2px solid #545454;
+}
+.review-content{
+    width: 348px;
+    height: 270px;
+    border: 2px solid #545454;
+}
+.image-comma{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-comma img{
+    width: 120px;
+    height: 120px;
+}
+#img1{
+    margin-top: 30px;
+    border: 2px solid #545454;
+}
+.name-role{
+    margin: 8%;
+    color: aliceblue;
+}
+.name-role h3{
+    width: 85px;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.name-role p{
+    margin-top: 15px;
+    width: 70px;
+}
+.feedback{
+    width: 100%;
+    height: 240px;
+    align-content: center;
+}
+.feedback p{
+    width: 94%;
+    margin: auto;
+    font-size: 22px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: left;
+}
+
+/* Talented Tattoo Artist start  */
+
+.telented-tattooist-container{
+    width: 100%;
+    background-color: #111410;
+}
+.telented-tattooist-heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.telented-tattooist-heading h4{
+    color: #ffae1e;
+    width: 120px;
+    margin: auto;
+}
+.telented-tattooist-heading h2{
+    color: #ffffff;
+    width: 600px;
+    margin: auto;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.telented-tattooist-images-container{
+    width: 100%;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    margin-top: 80px;
+
+}
+.tattooist-img{
+    width: 20%;
+    height: 300px;
+    background-color: #000;
+    filter: grayscale(2);
+    position: relative;
+}
+.tattooist-img img{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.name{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    bottom: -50px;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+}
+.tattooist-img:hover{
+    filter: grayscale(0);
+    box-shadow: -1px -1px 12px 2px #ffae1e;
+    transition: all ease-in-out .5s;
+}
+/* Telanted Tattoo artist Stop */
+
+/* Discover Solution Start  */
+.discover-solution-container{
+    width: 100%;
+    height: 750px;
+    background-color: #111410;
+    padding-top: 50px;
+}
+.discover-solution-heading h5{
+    width: 3%;
+    margin: auto;
+    color: #ffae1e;
+    text-align: center;
+}
+.discover-solution-heading h3{
+    width: 50%;
+    font-size: 50px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.discover-question-answers{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.faqs{
+    outline: 1px solid #545454;
+    width: 100%;
+    height: 60px;
+    background-color: #111410;
+}
+.faqs p{
+    width: 80%;
+    text-align: left;
+    margin-left: 20px;
+    opacity: 0;
+    color: #ffae1e;
+}
+.question-1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+}
+.question-1 h2{
+    width: 90%;
+    text-align: start;
+    margin-left: 15px;
+}
+.question-1 i{
+    margin-right: 15px;
+    transform: rotate(150deg);
+}
+.faqs:hover { 
+    height: 120px;
+    align-items: start;
+    transition: all ease-in-out .5s;
+}
+.faqs:hover h2{
+    color: #ffae1e;
+    margin-top: 10px;
+    transition: all ease-in-out .5s;
+
+}
+.faqs:hover i{
+    margin-top: 25px;
+    color: #ffae1e;
+    transform: rotate(70deg);
+    transition: all ease-in-out .5s;
+}
+.faqs:hover p{
+    opacity: 1;
+    margin-top: 5px;
+    color: #ffffffab;
+    transition: all ease-in-out .6s;
+}
+/* Discover Solution Stop  */
+
+.virtual-journal-container{
+    width: 100%;
+    background-color: #111410;
+}
+.virtual-journal-heading h4{
+    width: 15%;
+    margin: auto;
+    color: #ffae1e;
+    text-align: center;
+}
+.virtual-journal-heading h2{
+    width: 90%;
+    margin: auto;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+.journal-tattoo-content{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.journal-tattoo:hover .journal-tattoo-image img{
+    transform: scale(1.1);
+    transition: all ease-in-out .6s;
+}
+.journal-tattoo{
+    width: 30%;
+    height: 500px;
+    outline: 1px solid #545454;
+}
+.journal-tattoo-image {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    outline: 1px solid #545454;
+    position: relative;
+}
+.journal-tattoo-image img{
+    width: 100%;
+}
+.journal-tattoo-image h3{
+    width: 100px;
+    height: 21px;
+    position: absolute;
+    background-color: #ffae1e;
+    margin-top: -25px;
+    font-size: 13px;
+    align-content: center;
+    text-align: center;
+}
+.journal-tattoo-text {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.journal-tattoo-text h4{
+    font-size: 25px;
+    color: #ffffff;
+}
+.journal-tattoo-text p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.journal-tattoo-text button{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #ffae1e;
+    background-color: transparent;
+    margin-top: 35px;
+    font-weight: 700;
+    color: #ffae1e;
+}
+.journal-tattoo-text button:hover{
+    background-color: #ffae1e;
+    color: #000;
+    transition: all ease-in-out .5s;
+}
+.marrquee-container{
+    width: 100%;
+    height: 180px;
+    outline: 1px solid #545454;
+    background-color: #111410;
+    padding-bottom: 20px;
+}
+.marquee-content{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    color: #fff;
+    align-content: center ;
+}
+marquee {
+    font-size: 150px;
+}
+
+/* Footer content  */
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: #111410;
+    align-content: center;
+    padding-top: 20px;
+}
+.footer-content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+#logo {
+    width: 280px;
+    height: 40px;
+}
+.footer-ln-1 p{
+    width: 550px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #ffffffab;
+}
+#play-store{
+    height: 75px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.footer-li li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer-li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffffab;
+    font-weight: 500;
+}
+.footer-li a:hover{
+    color: #ffae1e;
+    transition: all ease-in-out .4s;
+}
+.copy-right-container{
+    width: 100%;
+    outline: 1px solid #545454;
+    margin-top: 50px;
+}
+.copy-right{
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy-right-1 p:hover{
+    color: #ffae1e;
+    transition: all ease-in-out .5s;
+}
+
+.copy-right-2 span:hover{
+    color: #ffae1e;
+    transition: all ease-in-out .5s;
+}
+.social-icon-footer i{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+    margin-left: 10px;
+    outline: 1px solid #545454;
+}
+.social-icon-footer i:hover{
+    outline: 1px solid #ffae1e;
+    transition: all ease-in-out.5s;
+}
+
+/* Footer Content End  */
